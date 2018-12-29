@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background-image: url(../images/background-dark.jpg);
+  color: #333;
+}
+a {
+  background-color: transparent;
+}
+a:visited {
+  color: inherit;
+}
+.content {
+  max-width: 960px;
+  padding: 0 1em 1.5em;
+  margin: 3em auto;
+}

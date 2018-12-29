@@ -1,0 +1,33 @@
+.fields__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.field__wrapper {
+  flex: 0 0 40%;
+  flex-direction: column;
+  background-color: hsla(220, 2%, 95%, 0.4);
+  padding: 1.25em;
+  border-radius: 3em;
+  font-size: 150%;
+  text-align: center;
+}
+.field__title {
+  text-transform: uppercase;
+  height: 2.25em;
+}
+.field__desc {
+  text-align: justify;
+}
+.field__button {
+  margin: 1em auto;
+  border: 1px solid #333;
+  padding: 10px;
+  min-width: 150px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+.field__button:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
