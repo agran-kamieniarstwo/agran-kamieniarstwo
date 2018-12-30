@@ -26,6 +26,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.header__link:hover {
+  text-decoration: underline;
+}
 .header__link {
   text-decoration: none;
   text-transform: uppercase;

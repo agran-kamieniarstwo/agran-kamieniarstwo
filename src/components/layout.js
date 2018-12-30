@@ -7,24 +7,11 @@ import Footer from './footer'
 import '../stylesheets/layout.css'
 
 const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={data => (
-      <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div className="content">{children}</div>
-        <Footer />
-      </>
-    )}
-  />
+  <>
+    <Header />
+    <div className="content">{children}</div>
+    <Footer />
+  </>
 )
 
 Layout.propTypes = {
