@@ -19,7 +19,7 @@
 .header__logo span {
   font-size: 0.4em;
   display: block;
-  color: red;
+  color: #555;
 }
 .header__links {
   display: flex;

@@ -8,10 +8,11 @@ import FieldOfInterest from '../components/fieldOfInterest'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h2>Hi people</h2>
+    {/* <h2>Hi people</h2> */}
     <div className="fields__wrapper">
-      <FieldOfInterest name="nagrobki" link="/nagrobki" />
+      <FieldOfInterest name="nagrobki" link="/nagrobki" nagrobek />
       <FieldOfInterest
+        schody
         name="Kamieniarstwo Budowlane"
         link="/kamieniarstwo-budowlane"
       />

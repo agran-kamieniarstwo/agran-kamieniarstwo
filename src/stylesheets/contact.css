@@ -1,0 +1,31 @@
+.contact__wrapper {
+  display: flex;
+  align-content: space-between;
+}
+.contact__info,
+.contact__form {
+  flex: 0 0 50%;
+}
+.contact__form label {
+  display: block;
+}
+.contact__input,
+.contact__textarea {
+  outline: none;
+  border-radius: 1em;
+  border: 1px solid #333;
+  font-size: 1.25rem;
+  padding: 0.5em;
+  text-align: center;
+  width: 400px;
+}
+.contact__textarea {
+  resize: vertical;
+  text-align: left;
+}
+.contact__form .field__button {
+  font-size: 1rem;
+}
+.contact__info h3 {
+  margin-top: 3em;
+}

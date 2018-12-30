@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react'
 import { Link } from 'gatsby'
+import { Schody, Nagrobek } from '../components/image'
 
 import '../stylesheets/fieldOfInterest.css'
 
@@ -11,11 +12,15 @@ export default class FieldOfInterest extends PureComponent {
   }
 
   render() {
-    const { name, desc, link } = this.props
+    const { name, desc, link, schody, nagrobek } = this.props
     return (
       <div className="field__wrapper">
         <h3 className="field__title">{name}</h3>
-        <div className="field__desc">{desc}</div>
+        <div className="field__desc">
+          {nagrobek && <Nagrobek />}
+          {schody && <Schody />}
+          {desc}
+        </div>
         <Link to={link}>
           <button className="field__button">Czytaj więcej...</button>
         </Link>
