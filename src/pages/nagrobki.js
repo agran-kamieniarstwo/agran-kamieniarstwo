@@ -5,9 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Realizations from '../components/realizations'
 import HowTo from '../components/howTo'
-import { colors } from '../components/helpers/colorsList'
-import { platePatterns } from '../components/helpers/platePatterns'
-import { headPatterns } from '../components/helpers/headPatterns'
+import Products from '../components/Products'
 import { realizationsList } from '../components/helpers/realizationsList'
 
 import '../stylesheets/subpages.css'
@@ -17,10 +15,10 @@ const SecondPage = () => (
     <SEO title="Nagrobki" />
     <div className="field__wrapper">
       <HowTo />
+      <Products />
       <Realizations />
       <h2 className="content__title">Nagrobki</h2>
       <p>Tu będzie wklejony tekst.</p>
-      {realizationsList.map(color => color.img)}
     </div>
   </Layout>
 )

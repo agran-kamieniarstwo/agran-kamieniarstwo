@@ -1,21 +1,18 @@
 import React, { PureComponent } from 'react'
-import { Link } from 'gatsby'
 
 import '../stylesheets/fieldOfInterest.css'
 
 export default class HowTo extends PureComponent {
-  static defaultProps = {
-    name: 'hello',
-    desc:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quibusdam facere assumenda architecto officiis eligendi neque exercitationem, totam laudantium nesciunt? Ducimus optio laborum eligendi natus nihil, accusantium eum. Dolorem, ut.',
-  }
-
   render() {
-    const { name, desc, link } = this.props
     return (
       <div className="content__wrapper">
         <h2 className="content__title">Jak wygląda proces?</h2>
-        <p>{this.props.desc}</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+          dicta sit laboriosam facere officiis velit dignissimos repellendus
+          quidem ut? Consequuntur velit quo quas, temporibus impedit dolorem!
+          Temporibus expedita nam laborum?
+        </p>
       </div>
     )
   }

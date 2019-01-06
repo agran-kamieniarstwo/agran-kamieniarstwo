@@ -71,7 +71,7 @@ const till_greyObj = {
   img: <img src={till_grey} alt="" />,
 }
 
-export const colors = [
+export const colorsList = [
   auroraObj,
   braz_krolewskiObj,
   cheer_pinkObj,
