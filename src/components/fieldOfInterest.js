@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react'
 import { Link } from 'gatsby'
-import { Schody, Nagrobek } from '../components/image'
+import { Schody } from '../components/schodyImage'
+import { Nagrobek } from '../components/nagrobekImage'
 
 import '../stylesheets/fieldOfInterest.css'
 

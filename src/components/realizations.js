@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
-import { Link } from 'gatsby'
 
+import { realizationsList } from '../components/helpers/realizationsList'
 import '../stylesheets/fieldOfInterest.css'
 
 export default class Realizations extends PureComponent {
@@ -11,11 +11,16 @@ export default class Realizations extends PureComponent {
   }
 
   render() {
-    const { name, desc, link } = this.props
     return (
       <div className="content__wrapper">
         <h2 className="content__title">Nasze realizacje</h2>
-        <p>{this.props.desc}</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi debitis
+          hic dolore alias totam eveniet quas natus perferendis numquam tempore
+          itaque ducimus repudiandae quos, sint quo voluptate corrupti
+          asperiores accusamus.
+        </p>
+        {realizationsList.map(color => color.img)}
       </div>
     )
   }

@@ -1,12 +1,10 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Realizations from '../components/realizations'
 import HowTo from '../components/howTo'
 import Products from '../components/Products'
-import { realizationsList } from '../components/helpers/realizationsList'
 
 import '../stylesheets/subpages.css'
 
