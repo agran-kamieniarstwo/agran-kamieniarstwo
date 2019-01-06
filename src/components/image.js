@@ -46,18 +46,3 @@ export const Nagrobek = () => (
     render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
   />
 )
-
-function importAll(r) {
-  const files = {}
-  r.keys().forEach(key => {
-    const nameRegex = /(\.\/)(\w+)(\.jpe?g)/
-    console.log(key.replace(nameRegex, '$2'))
-    // names.push(key.replace(nameRegex, '$2'))
-  })
-  return files
-}
-
-const foo = importAll(
-  require.context('../images/patterns/plate', false, /\.jpe?g$/)
-)
-// console.log(foo)

@@ -1,18 +1,18 @@
 import React from 'react'
-import aurora from '../images/colors/aurora.jpg'
-import braz_krolewski from '../images/colors/braz_krolewski.jpg'
-import cheer_pink from '../images/colors/cheer_pink.jpg'
-import hassan from '../images/colors/hassan.jpg'
-import himalaya from '../images/colors/himalaya.jpg'
-import impala from '../images/colors/impala.jpg'
-import impalarpa from '../images/colors/impalarpa.jpg'
-import orion from '../images/colors/orion.jpg'
-import paradiso from '../images/colors/paradiso.jpg'
-import ruby_star from '../images/colors/ruby_star.jpg'
-import skalisty from '../images/colors/skalisty.jpeg'
-import srebrzysty from '../images/colors/srebrzysty.jpg'
-import tan_brawn from '../images/colors/tan_brawn.jpg'
-import till_grey from '../images/colors/till_grey.jpeg'
+import aurora from '../../images/colors/aurora.jpg'
+import braz_krolewski from '../../images/colors/braz_krolewski.jpg'
+import cheer_pink from '../../images/colors/cheer_pink.jpg'
+import hassan from '../../images/colors/hassan.jpg'
+import himalaya from '../../images/colors/himalaya.jpg'
+import impala from '../../images/colors/impala.jpg'
+import impalarpa from '../../images/colors/impalarpa.jpg'
+import orion from '../../images/colors/orion.jpg'
+import paradiso from '../../images/colors/paradiso.jpg'
+import ruby_star from '../../images/colors/ruby_star.jpg'
+import skalisty from '../../images/colors/skalisty.jpeg'
+import srebrzysty from '../../images/colors/srebrzysty.jpg'
+import tan_brawn from '../../images/colors/tan_brawn.jpg'
+import till_grey from '../../images/colors/till_grey.jpeg'
 
 const auroraObj = {
   alt: 'aurora',
@@ -71,7 +71,7 @@ const till_greyObj = {
   img: <img src={till_grey} alt="" />,
 }
 
-export const foo = [
+export const colors = [
   auroraObj,
   braz_krolewskiObj,
   cheer_pinkObj,

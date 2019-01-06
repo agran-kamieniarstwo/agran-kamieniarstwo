@@ -5,8 +5,10 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Realizations from '../components/realizations'
 import HowTo from '../components/howTo'
-import { foo } from '../components/colors'
-import { platePatterns } from '../components/platePatterns'
+import { colors } from '../components/helpers/colorsList'
+import { platePatterns } from '../components/helpers/platePatterns'
+import { headPatterns } from '../components/helpers/headPatterns'
+import { realizationsList } from '../components/helpers/realizationsList'
 
 import '../stylesheets/subpages.css'
 
@@ -18,7 +20,7 @@ const SecondPage = () => (
       <Realizations />
       <h2 className="content__title">Nagrobki</h2>
       <p>Tu będzie wklejony tekst.</p>
-      {platePatterns.map(color => color.img)}
+      {realizationsList.map(color => color.img)}
     </div>
   </Layout>
 )
