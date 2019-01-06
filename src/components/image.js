@@ -13,6 +13,23 @@ import Img from 'gatsby-image'
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
+export const Schody = () => (
+  <StaticQuery
+    query={graphql`
+      query {
+        placeholderImage: file(relativePath: { eq: "schody.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 300) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `}
+    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+  />
+)
+
 export const Nagrobek = () => (
   <StaticQuery
     query={graphql`
@@ -30,19 +47,17 @@ export const Nagrobek = () => (
   />
 )
 
-export const Schody = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        placeholderImage: file(relativePath: { eq: "schody.jpg" }) {
-          childImageSharp {
-            fluid(maxWidth: 300) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
-  />
+function importAll(r) {
+  const files = {}
+  r.keys().forEach(key => {
+    const nameRegex = /(\.\/)(\w+)(\.jpe?g)/
+    console.log(key.replace(nameRegex, '$2'))
+    // names.push(key.replace(nameRegex, '$2'))
+  })
+  return files
+}
+
+const foo = importAll(
+  require.context('../images/patterns/plate', false, /\.jpe?g$/)
 )
+// console.log(foo)
