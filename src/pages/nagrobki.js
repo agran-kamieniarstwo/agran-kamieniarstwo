@@ -15,8 +15,6 @@ const SecondPage = () => (
       <HowTo />
       <Products />
       <Realizations />
-      <h2 className="content__title">Nagrobki</h2>
-      <p>Tu będzie wklejony tekst.</p>
     </div>
   </Layout>
 )

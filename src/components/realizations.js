@@ -1,15 +1,12 @@
 import React, { PureComponent } from 'react'
+import { Carousel } from 'react-responsive-carousel'
 
 import { realizationsList } from '../components/helpers/realizationsList'
+
 import '../stylesheets/fieldOfInterest.css'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 export default class Realizations extends PureComponent {
-  static defaultProps = {
-    name: 'hello',
-    desc:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quibusdam facere assumenda architecto officiis eligendi neque exercitationem, totam laudantium nesciunt? Ducimus optio laborum eligendi natus nihil, accusantium eum. Dolorem, ut.',
-  }
-
   render() {
     return (
       <div className="content__wrapper">
@@ -20,7 +17,16 @@ export default class Realizations extends PureComponent {
           itaque ducimus repudiandae quos, sint quo voluptate corrupti
           asperiores accusamus.
         </p>
-        {realizationsList.map(color => color.img)}
+        <Carousel
+          showStatus={false}
+          showIndicators={false}
+          dynamicHeight
+          infiniteLoop
+        >
+          {realizationsList.map(image => (
+            <div style={{ maxHeight: '500px' }}>{image.img}</div>
+          ))}
+        </Carousel>
       </div>
     )
   }
