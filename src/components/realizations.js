@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react'
+import React, { PureComponent, Fragment } from 'react'
 import { Carousel } from 'react-responsive-carousel'
 
 import { realizationsList } from '../components/helpers/realizationsList'
@@ -9,7 +9,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 export default class Realizations extends PureComponent {
   render() {
     return (
-      <div className="content__wrapper">
+      <div className="content__wrapper realizations">
         <h2 className="content__title">Nasze realizacje</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi debitis
@@ -20,11 +20,11 @@ export default class Realizations extends PureComponent {
         <Carousel
           showStatus={false}
           showIndicators={false}
-          dynamicHeight
+          dynamicWidth
           infiniteLoop
         >
           {realizationsList.map(image => (
-            <div style={{ maxHeight: '500px' }}>{image.img}</div>
+            <Fragment>{image.img}</Fragment>
           ))}
         </Carousel>
       </div>

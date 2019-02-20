@@ -17,3 +17,8 @@
   text-align: center;
   opacity: 1;
 }
+
+.realizations .carousel-slider img {
+  height: 600px;
+  width: auto;
+}
