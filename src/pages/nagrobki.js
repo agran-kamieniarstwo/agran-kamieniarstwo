@@ -12,8 +12,9 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Nagrobki" />
     <div className="field__wrapper">
-      <HowTo />
       <Products />
+    </div>
+    <div className="field__wrapper">
       <Realizations />
     </div>
   </Layout>

@@ -11,12 +11,6 @@ export default class Realizations extends PureComponent {
     return (
       <div className="content__wrapper realizations">
         <h2 className="content__title">Nasze realizacje</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi debitis
-          hic dolore alias totam eveniet quas natus perferendis numquam tempore
-          itaque ducimus repudiandae quos, sint quo voluptate corrupti
-          asperiores accusamus.
-        </p>
         <Carousel
           showStatus={false}
           showIndicators={false}

@@ -7,10 +7,17 @@ import FieldOfInterest from '../components/fieldOfInterest'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    {/* <h2>Hi people</h2> */}
     <div className="fields__wrapper">
-      <FieldOfInterest name="nagrobki" link="/nagrobki" nagrobek />
       <FieldOfInterest
+        name="nagrobki"
+        link="/nagrobki"
+        nagrobek
+        desc="Posiadamy szeroką ofertę nagrobków oraz tablic napisowych w bogatej gamie kolorystycznej. Gwarantujemy
+              profesjonalną obsługę oraz szybki czas realizacji zamówienia."
+      />
+      <FieldOfInterest
+        desc="Posiadamy doświadczonych kamieniarzy specjalizujących się w obróbce i montau elementów z kamienia.
+        Realizujemy zarówno proste, niewielkie zlecenia jak również wspołpracujemy przy dużych realizacjach."
         schody
         name="Kamieniarstwo Budowlane"
         link="/kamieniarstwo-budowlane"

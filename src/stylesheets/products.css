@@ -2,6 +2,9 @@
   width: 300px !important;
   margin: 0 auto;
 }
+.products:not(:last-child) {
+  border-bottom: 1px solid black;
+}
 .products .carousel .slide .legend {
   transition: all 0.5s ease-in-out;
   position: relative;

@@ -14,27 +14,21 @@ const SecondPage = () => (
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <div style={{ textAlign: 'left' }}>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
-            delectus voluptas nesciunt quod adipisci ad. Ab, unde recusandae?
-            Tenetur, in eos minus saepe commodi vero nulla itaque corporis est
-            ab? Ex in necessitatibus commodi doloremque eveniet atque placeat
-            consequuntur deleniti possimus, libero, ducimus iste sequi officia
-            eum quas dolores quidem eius excepturi repellat voluptate quod
-            mollitia at. Quasi, reprehenderit a. Eum odit nihil fuga earum
-            numquam consequatur dignissimos quos officia, placeat omnis
-            temporibus suscipit asperiores modi ad aspernatur esse impedit
-            provident, eligendi itaque enim. Consectetur iusto eaque animi alias
-            illum. Itaque doloremque omnis mollitia voluptatum, asperiores qui
-            ipsa quae nobis nemo dolorem at, fugiat ab inventore tempora
-            voluptate provident! Impedit molestiae corrupti tempora eveniet esse
-            harum molestias natus rem dolorum!
+            Zajmujemy się kompleksową obróbką kamienia i&nbsp;produkcją
+            elementów wykończeniowych. W naszym zakładzie korzystamy z wysokiej
+            jakości produktów, a naszym klientom oferujemy bogatą ofertę kamieni
+            w szerokiej gamie kolorów, grubości i faktur.
           </p>
+          <p>Wykonujemy z kamienia między innymi:</p>
           <ul>
-            <li>corrupti tempora eveniet</li>
-            <li>corrupti tempora eveniet</li>
-            <li>corrupti tempora eveniet</li>
-            <li>corrupti tempora eveniet</li>
+            <li>schody</li>
+            <li>kominki</li>
+            <li>blaty kuchenne</li>
+            <li>parapety okienne</li>
+            <li>posadzki</li>
+            <li>oraz inne elementy budowlane</li>
           </ul>
+          <p>Zapraszamy do kontaktu.</p>
         </div>
         <img
           src={schody}
