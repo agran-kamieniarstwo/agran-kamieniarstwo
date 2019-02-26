@@ -4,7 +4,9 @@
 }
 .contact__info,
 .contact__form {
-  flex: 0 0 50%;
+  /* flex: 0 0 50%; */
+  line-height: 1.5;
+  margin-top: 1.5rem;
 }
 .contact__form label {
   display: block;

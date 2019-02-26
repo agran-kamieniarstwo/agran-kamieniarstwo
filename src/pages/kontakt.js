@@ -11,7 +11,7 @@ const SecondPage = () => (
     <div className="field__wrapper">
       <h2 className="content__title">Kontakt</h2>
       <div className="contact__wrapper">
-        <form className="contact__form" method="POST">
+        <form className="contact__form" style={{ display: 'none' }}>
           <div>
             <label htmlFor="name">Imię</label>
             <input
@@ -49,8 +49,10 @@ const SecondPage = () => (
           <button className="field__button">Wyślij wiadomość</button>
         </form>
         <div className="contact__info">
-          <h3>AGRAN Kamieniarstwo</h3>
+          {/* <h3>AGRAN Kamieniarstwo</h3> */}
           Elżbieta Wojciechowska
+          <br />
+          tel: <a href="tel:+48600726536">600 726 536</a>
           <br />
           ul.Harcerska 25
           <br />
