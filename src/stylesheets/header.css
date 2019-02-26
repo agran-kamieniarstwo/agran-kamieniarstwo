@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 .header__logo {
   margin: 0;
@@ -23,8 +24,11 @@
 }
 .header__links {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  line-height: 1.5;
+  border-top: 1px solid black;
 }
 .header__link:hover {
   text-decoration: underline;
@@ -33,4 +37,15 @@
   text-decoration: none;
   text-transform: uppercase;
   padding: 0 20px;
+}
+@media (min-width: 768px) {
+  .header__wrapper {
+    flex-direction: row;
+  }
+  .header__links {
+    margin: 0;
+    line-height: 1;
+    border: none;
+    flex-direction: row;
+  }
 }
