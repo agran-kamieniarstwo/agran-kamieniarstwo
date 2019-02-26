@@ -1,0 +1,24 @@
+.content {
+}
+.content__title {
+  margin: 0;
+  text-transform: uppercase;
+}
+.field-content li {
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  .field-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .field-content img {
+    flex: 1 1 375px;
+  }
+  .text-content {
+    padding-right: 1em;
+    flex: 1 1 calc(100% - 375px - 1em);
+  }
+}

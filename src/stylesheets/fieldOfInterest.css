@@ -1,33 +1,60 @@
 .fields__wrapper {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 .field__wrapper {
-  flex: 0 0 40%;
-  flex-direction: column;
   background-color: hsla(220, 1%, 95%, 0.85);
-  padding: 1.25em;
-  font-size: 150%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  padding: 1em;
+  align-items: center;
   text-align: center;
-  margin: 2.5rem 0;
 }
 .field__title {
   text-transform: uppercase;
-  height: 2.25em;
-}
-.field__desc {
-  text-align: justify;
 }
 .field__button {
-  margin: 1em auto;
-  border: 1px solid #333;
-  padding: 10px;
-  min-width: 150px;
-  border-radius: 20px;
+  background-color: #dddddd;
+  display: inline-block;
+  margin: 0 auto;
+  border: 1px solid #333333;
+  padding: 0.5em 1.5em;
+  border-radius: 1em;
   font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 1em;
+  text-decoration: none;
 }
 .field__button:hover {
-  background-color: #333;
+  background-color: #333333;
   color: white;
   cursor: pointer;
+}
+.image-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+}
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.no-flex {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .fields__wrapper {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .field__wrapper {
+    flex: 0 0 375px;
+  }
+  .field__title {
+    flex: 0 0 2em;
+    line-height: 1;
+  }
 }

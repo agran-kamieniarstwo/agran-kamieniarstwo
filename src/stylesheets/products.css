@@ -1,10 +1,12 @@
 .products > .carousel.carousel-slider {
-  width: 300px !important;
+  max-width: 300px !important;
   margin: 0 auto;
 }
+
 .products:not(:last-child) {
   border-bottom: 1px solid black;
 }
+
 .products .carousel .slide .legend {
   transition: all 0.5s ease-in-out;
   position: relative;
@@ -21,7 +23,19 @@
   opacity: 1;
 }
 
+.realizations .carousel .slide {
+  margin: auto;
+}
+
 .realizations .carousel-slider img {
-  height: 600px;
-  width: auto;
+  height: auto;
+  max-width: 300px;
+}
+
+@media (min-width: 768px) {
+  .realizations .carousel-slider img {
+    height: 600px;
+    width: auto;
+    max-width: none;
+  }
 }

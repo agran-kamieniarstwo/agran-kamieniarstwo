@@ -1,18 +1,19 @@
 import React from 'react'
-import schody from '../images/schody.jpg'
+import { Link } from 'gatsby'
 
+import schody from '../images/schody.jpg'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-import '../stylesheets/subpages.css'
+import '../stylesheets/kamieniarstwo-budowlane.css'
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Nagrobki" />
+    <SEO title="Kamieniarsto budowlane" />
     <div className="field__wrapper">
-      <h2 className="content__title">Kamieniarstwo Budowlane</h2>
-      <div style={{ display: 'flex', alignItems: 'center' }}>
-        <div style={{ textAlign: 'left' }}>
+      <h2 className="field__title">Kamieniarstwo Budowlane</h2>
+      <div className="field-content">
+        <div className="text-content">
           <p>
             Zajmujemy się kompleksową obróbką kamienia i&nbsp;produkcją
             elementów wykończeniowych. W naszym zakładzie korzystamy z wysokiej
@@ -28,13 +29,13 @@ const SecondPage = () => (
             <li>posadzki</li>
             <li>oraz inne elementy budowlane</li>
           </ul>
-          <p>Zapraszamy do kontaktu.</p>
+          <p>
+            Zapraszamy do <Link to="/kontakt">kontaktu</Link>.
+          </p>
         </div>
-        <img
-          src={schody}
-          alt=""
-          style={{ height: '100%', margin: '0 0 150px 30px' }}
-        />
+        <div className="image-wrapper">
+          <img src={schody} alt="granitowe schody" />
+        </div>
       </div>
     </div>
   </Layout>
