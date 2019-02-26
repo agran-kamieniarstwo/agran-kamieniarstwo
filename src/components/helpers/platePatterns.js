@@ -10,7 +10,6 @@ import lila from '../../images/patterns/plate/lila.jpg'
 import look from '../../images/patterns/plate/look.jpg'
 import luk from '../../images/patterns/plate/luk.jpg'
 import nietoperz from '../../images/patterns/plate/nietoperz.jpg'
-import podwojny_trzyplytowy from '../../images/patterns/plate/podwojny_trzyplytowy.jpg'
 import podwojny_dwuplytowy from '../../images/patterns/plate/podwojny_dwuplytowy.jpg'
 import polka_przod from '../../images/patterns/plate/polka_przod.jpg'
 import polka_bok from '../../images/patterns/plate/polka_bok.jpg'
@@ -22,7 +21,7 @@ import zab from '../../images/patterns/plate/zab.jpg'
 import zab_odwrocony from '../../images/patterns/plate/zab_odwrocony.jpg'
 
 const cwiercwalekObj = {
-  alt: 'cwiercwalek',
+  alt: 'ćwierćwałek',
   img: <img src={cwiercwalek} alt="" />,
 }
 const falaObj = {
@@ -34,7 +33,7 @@ const fortepianObj = {
   img: <img src={fortepian} alt="" />,
 }
 const kaskada_QRObj = {
-  alt: 'kaskada_QR',
+  alt: 'kaskada QR',
   img: <img src={kaskada_QR} alt="" />,
 }
 const kaskadaObj = {
@@ -42,11 +41,11 @@ const kaskadaObj = {
   img: <img src={kaskada} alt="" />,
 }
 const koloObj = {
-  alt: 'kolo',
+  alt: 'koło',
   img: <img src={kolo} alt="" />,
 }
 const lezkaObj = {
-  alt: 'lezka',
+  alt: 'łezka',
   img: <img src={lezka} alt="" />,
 }
 const lilaObj = {
@@ -58,35 +57,32 @@ const lookObj = {
   img: <img src={look} alt="" />,
 }
 const lukObj = {
-  alt: 'luk',
+  alt: 'łuk',
   img: <img src={luk} alt="" />,
 }
 const nietoperzObj = {
   alt: 'nietoperz',
   img: <img src={nietoperz} alt="" />,
 }
-const podwojny_trzyplytowyObj = {
-  alt: 'podwojny_trzyplytowy',
-  img: <img src={podwojny_trzyplytowy} alt="" />,
-}
+
 const podwojny_dwuplytowyObj = {
-  alt: 'podwojny_dwuplytowy',
+  alt: 'podwójny dwupłytowy',
   img: <img src={podwojny_dwuplytowy} alt="" />,
 }
 const polka_przodObj = {
-  alt: 'polka_przod',
+  alt: 'półka przód',
   img: <img src={polka_przod} alt="" />,
 }
 const polka_bokObj = {
-  alt: 'polka_bok',
+  alt: 'półka bok',
   img: <img src={polka_bok} alt="" />,
 }
 const rawatObj = {
-  alt: 'rawat',
+  alt: 'krawat',
   img: <img src={rawat} alt="" />,
 }
 const rogObj = {
-  alt: 'rog',
+  alt: 'róg',
   img: <img src={rog} alt="" />,
 }
 const rzekaObj = {
@@ -94,15 +90,15 @@ const rzekaObj = {
   img: <img src={rzeka} alt="" />,
 }
 const trzyplytowy_duzyObj = {
-  alt: 'trzyplytowy_duzy',
+  alt: 'podwójny trzypłytowy',
   img: <img src={trzyplytowy_duzy} alt="" />,
 }
 const zabObj = {
-  alt: 'zab',
+  alt: 'ząb',
   img: <img src={zab} alt="" />,
 }
 const zab_odwroconyObj = {
-  alt: 'zab_odwrocony',
+  alt: 'ząb odwrócony',
   img: <img src={zab_odwrocony} alt="" />,
 }
 
@@ -118,7 +114,6 @@ export const platePatterns = [
   lookObj,
   lukObj,
   nietoperzObj,
-  podwojny_trzyplytowyObj,
   podwojny_dwuplytowyObj,
   polka_przodObj,
   polka_bokObj,

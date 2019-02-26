@@ -1,8 +1,4 @@
 import React from 'react'
-import K2 from '../../images/patterns/head/K2.jpg'
-import K3 from '../../images/patterns/head/K3.jpg'
-import K4 from '../../images/patterns/head/K4.jpg'
-import K1 from '../../images/patterns/head/K1.jpg'
 import S05 from '../../images/patterns/head/S05.jpg'
 import S61 from '../../images/patterns/head/S61.jpg'
 import S62 from '../../images/patterns/head/S62.jpg'
@@ -16,22 +12,6 @@ import S80 from '../../images/patterns/head/S80.jpg'
 import S93 from '../../images/patterns/head/S93.jpg'
 import T13 from '../../images/patterns/head/T13.jpg'
 
-const K1Obj = {
-  alt: 'K1',
-  img: <img src={K1} alt="" />,
-}
-const K2Obj = {
-  alt: 'K2',
-  img: <img src={K2} alt="" />,
-}
-const K3Obj = {
-  alt: 'K3',
-  img: <img src={K3} alt="" />,
-}
-const K4Obj = {
-  alt: 'K4',
-  img: <img src={K4} alt="" />,
-}
 const S05Obj = {
   alt: 'S05',
   img: <img src={S05} alt="" />,
@@ -82,10 +62,6 @@ const T13Obj = {
 }
 
 export const headPatterns = [
-  K1Obj,
-  K2Obj,
-  K3Obj,
-  K4Obj,
   S05Obj,
   S61Obj,
   S62Obj,

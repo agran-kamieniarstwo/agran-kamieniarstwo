@@ -29,6 +29,7 @@
   align-items: center;
   line-height: 1.5;
   border-top: 1px solid black;
+  margin: 1rem auto;
 }
 .header__link:hover {
   text-decoration: underline;

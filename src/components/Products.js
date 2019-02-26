@@ -31,7 +31,7 @@ export default class Products extends PureComponent {
     return (
       <div className="content__wrapper">
         <h2 className="content__title">Nasza oferta</h2>
-        <h3>Płyty</h3>
+        <h3>Wykończenia</h3>
         {this._renderInCarousel(platePatterns)}
         <h3>Tablice napisowe</h3>
         {this._renderInCarousel(headPatterns)}
