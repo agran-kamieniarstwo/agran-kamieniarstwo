@@ -1,6 +1,6 @@
 .header__wrapper {
   background-color: hsl(220, 1%, 85%);
-  padding: 1.5em 1em;
+  padding: 1.5em 1em 0;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -27,9 +27,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  line-height: 1.5;
+  line-height: 1.75;
   border-top: 1px solid black;
-  margin: 1rem auto;
+  padding: 1rem 0;
+  /* margin: 0 auto; */
 }
 .header__link:hover {
   text-decoration: underline;

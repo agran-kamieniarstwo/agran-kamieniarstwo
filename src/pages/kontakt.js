@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 import '../stylesheets/contact.css'
+import '../stylesheets/fieldOfInterest.css'
 
 const SecondPage = () => (
   <Layout>
