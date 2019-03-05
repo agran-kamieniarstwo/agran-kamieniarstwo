@@ -10,7 +10,20 @@ import '../stylesheets/fieldOfInterest.css'
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Kamieniarsto budowlane" />
+    <SEO
+      title="Kamieniarsto budowlane - Agran Kamieniarstwo"
+      keywords={[
+        `blaty kuchenne`,
+        `schody`,
+        `posadzki`,
+        `parapety`,
+        `kominki`,
+        `marmur`,
+        `granit`,
+      ]}
+      lang="pl"
+      description="Posiadamy bogatą ofertę kamieni w szerokiej gamie kolorów, grubości i faktur."
+    />
     <div className="field__wrapper">
       <h2 className="field__title">Kamieniarstwo Budowlane</h2>
       <div className="field-content">

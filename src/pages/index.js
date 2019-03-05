@@ -10,7 +10,25 @@ import '../stylesheets/fieldOfInterest.css'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Agran Kamieniarstwo"
+      keywords={[
+        `kamieniarstwo`,
+        `kamieniarstwo budowlane`,
+        `nagrobki`,
+        `marmur`,
+        `granit`,
+        `śląsk`,
+        `nagrobki Katowice`,
+        `nagrobki Piekary śląskie`,
+        `nagrobki Gliwice`,
+        `nagrobki Chorzów`,
+        `nagrobki Bytom`,
+        `nagrobki Zabrze`,
+      ]}
+      lang="pl"
+      description="Firma Agran działą na terenie całego śląska. Specjalizujemy się w kamieniarstwie nagrobkowym oraz kamieniarstwie budowlanym."
+    />
 
     <div className="fields__wrapper">
       <div className="field__wrapper">

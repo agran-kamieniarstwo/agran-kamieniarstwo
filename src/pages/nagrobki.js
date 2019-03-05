@@ -9,7 +9,18 @@ import '../stylesheets/kamieniarstwo-budowlane.css'
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Nagrobki" />
+    <SEO
+      title="Nagrobki - Agran Kamieniarstow"
+      keywords={[
+        `nagrobki granitowe`,
+        `nagrobki marmurowe`,
+        `nagrobki`,
+        `marmur`,
+        `granit`,
+      ]}
+      lang="pl"
+      description="Posiadamy szeroką ofertę nagrobków oraz tablic napisowych w bogatej gamie kolorystycznej i materiałowej."
+    />
     <div className="field__wrapper no-flex">
       <Products />
     </div>

@@ -8,7 +8,12 @@ import '../stylesheets/fieldOfInterest.css'
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Nagrobki" />
+    <SEO
+      title="Kontakt - Agran Kamieniarstwo"
+      keywords={[`kontakt`]}
+      lang="pl"
+      description="Zapraszamy do kontaktu z naszą firmą."
+    />
     <div className="field__wrapper">
       <h2 className="content__title">Kontakt</h2>
       <div className="contact__wrapper">
