@@ -20,7 +20,6 @@ import realization25 from '../../images/realizations/realization-25.jpg'
 import realization26 from '../../images/realizations/realization-26.jpg'
 import realization27 from '../../images/realizations/realization-27.jpg'
 import realization28 from '../../images/realizations/realization-28.jpg'
-import realization29 from '../../images/realizations/realization-29.jpg'
 import realization3 from '../../images/realizations/realization-3.jpg'
 // import realization4 from '../../images/realizations/realization-4.jpg'
 import realization5 from '../../images/realizations/realization-5.jpg'
@@ -92,9 +91,6 @@ const realization27Obj = {
 const realization28Obj = {
   img: <img src={realization28} alt="" />,
 }
-const realization29Obj = {
-  img: <img src={realization29} alt="" />,
-}
 const realization3Obj = {
   img: <img src={realization3} alt="" />,
 }
@@ -139,7 +135,6 @@ export const realizationsList = [
   realization26Obj,
   realization27Obj,
   realization28Obj,
-  realization29Obj,
   realization3Obj,
   // realization4Obj,
   realization5Obj,
